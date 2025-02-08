@@ -1,0 +1,402 @@
+/*Estilos del encabezado "Header"*/
+#contenedor_header {
+    background-image: url(assets/Background_header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+
+.redes img {
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+}
+
+#presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#presentacion img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+
+#presentacion h1 {
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #778DA9;
+    margin: 10px 0px;
+    filter: drop-shadow(1px 2px 10px #415A77);
+}
+
+#presentacion h2 {
+    font-family: "Nunito", serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #E0E1DD;
+    margin: 0px 0px 20px 0px;
+}
+#presentacion p{
+color: #E0E1DD;
+width: 90vw;
+font-family: "Nunito", serif;
+font-weight:normal;
+text-align:center;
+}
+
+
+#presentacion button,#button-link {
+    background-color: #E0E1DD;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size: large;
+    color: #415A77;
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+    height: 5vh;
+    width: 10rem;
+}
+
+
+/*Estilos de la seccion sobre mi*/
+.subTitulos {
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #415A77;
+}
+
+#contenedor_habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    background: #E0E1DD;
+    border: #E0E1DD solid 2px;
+    text-align: center;
+}
+
+.habilidadeItems {
+    border: #415A77 solid 1px;
+    background-color: #415A77;
+    border-radius: 12px;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    width: 50vw;
+    text-align: center;
+}
+
+.habilidadeItems .imgHabilidades {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background: #778DA9;
+    margin: 10px;
+}
+
+.habilidadeItems .nombreHabilidad {
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    color: #E0E1DD;
+    line-height: normal;
+}
+
+/*estilos de la seccio de proyectos*/
+#contenedor_proyectos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    margin: 30px 0px;
+    width: 100vw;
+}
+#proyectos{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+}
+.proyectosItems{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 20px;
+   margin: 20px 0px;
+   background-color: #E0E1DD;
+   border-radius: 12px;
+}
+.proyectosItems img{
+    width: 80px;
+    height: 80px;
+}
+.proyectosItems h5{
+    font-family: "Nunito", serif;
+    font-weight: bolder;
+    font-size:x-large;
+    text-align: center;
+    color: #415A77;
+    padding: 10px;
+}
+.proyectosItems p{
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size:large;
+    text-align: center;
+    color: #778DA9;
+}
+.proyectosItems button{
+    background-color:#E0E1DD;
+    border: #778DA9 solid 2px;
+    border-radius: 12px;
+    height: 5vh;
+    width: 10rem;
+    margin: 10px 0px;
+}
+.proyectosItems button:hover{
+    transform: scale(1.1);
+    background-color: #778DA9;
+    border: none;
+    filter: drop-shadow(1px 2px 15px #415A77);
+}
+.proyectosItems a{
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size: large;
+    color: #415A77;
+    text-decoration: none;
+}
+
+
+/*estilos de la seccion contacto*/
+
+#contenedor_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px 30px;
+    background: #E0E1DD;
+}
+#contacto{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+    width: 100vw;
+    height: auto;
+}
+#formularioContacto{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 60vh;
+    width: auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    font-family: "Nunito", serif;
+    font-weight: bolder;
+    font-size:large;
+    color: #778DA9;
+    box-shadow: 2px 19px 38px 1px #415A77;
+}
+#formularioContacto input{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: left;
+}
+#formularioContacto textarea{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#btn_formulario{
+    background: #E0E1DD;
+    border: solid 2px #778DA9;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    width: 18vw;
+    color: #415A77;
+}
+#btn_formulario:hover{
+    transform: scaleY(1.1);
+    background: #778DA9;
+    color: #E0E1DD;
+}
+/*estilos del footer*/
+#pie_pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 20px 30px;
+    background-color: #415A77;
+    color: #E0E1DD;
+}
+
+
+/* Media query para pantallas de PCs y laptops */
+@media only screen and (min-width: 992px) {
+    #contenedor_habilidades {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 30px;
+        margin: 40px 0px;
+        background: #E0E1DD;
+        border: #E0E1DD solid 2px;
+        text-align: center;
+    }
+    #presentacion p{
+        color: #E0E1DD;
+        width: 50vw;
+        font-family: "Nunito", serif;
+        font-weight:normal;
+        text-align:center;
+        }
+
+    #habilidades {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px 30px;
+    }
+
+    .habilidadeItems {
+        width: 100%;
+        margin: 0;
+    }
+
+    .habilidadeItems:hover {
+        cursor: pointer;
+        filter: drop-shadow(1px 2px 15px #415A77);
+    }
+
+    .habilidadeItems .imgHabilidades {
+        width: 30px;
+        height: 30px;
+        background: #415A77;
+
+    }
+
+    .habilidadeItems .nombreHabilidad {
+        font-family: "Nunito", serif;
+        font-weight: bold;
+        color: #E0E1DD;
+        line-height: normal;
+    }
+
+/*estilos de la seccion de proyectos*/
+#contenedor_proyectos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/Background_header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 30px;
+    width: 100vw;
+}
+#proyectos{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+   width: 70vw;
+   text-align: center;
+}
+.proyectosItems{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 20px;
+   margin: 20px 0px;
+   background-color: #E0E1DD;
+   border-radius: 12px;
+   filter: drop-shadow(10px 10px 15px #415A77);
+}
+
+
+/*estilos resposivos de contacto*/
+#contacto{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    width: 100vw;
+}
+#formularioContacto{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+   height: 75vh;
+    width: auto;
+    padding: 30px 60px;
+    border-radius: 12px;
+    font-family: "Nunito", serif;
+    font-weight: bolder;
+    font-size:large;
+    color: #778DA9;
+    
+}
+#formularioContacto input{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: left;
+}
+#formularioContacto textarea{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline:none;
+    padding: 10px 20px;
+}
+
+}
