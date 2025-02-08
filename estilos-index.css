@@ -251,7 +251,7 @@ text-align:center;
     border-radius: 12px;
     padding: 5px 10px;
     margin: 20px 0px;
-    width: 18vw;
+    width: fit-content;
     color: #415A77;
 }
 #btn_formulario:hover{
@@ -397,6 +397,18 @@ text-align:center;
     border: none;
     outline:none;
     padding: 10px 20px;
+}
+#btn_formulario{
+    background: #E0E1DD;
+    border: solid 2px #778DA9;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    width: 18vw;
+    color: #415A77;
 }
 
 }
